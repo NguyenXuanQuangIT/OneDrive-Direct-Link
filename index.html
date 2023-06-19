@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tạo Direct Link OneDrive Business</title>
+<meta charset="utf-8">
+<meta name="author" content="Nguyen Xuan Quang">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+<h1>Tạo Direct Link OneDrive Business</h1>
+<form>
+<label for="fileUrl">URL OneDrive:</label>
+<input type="text" id="fileUrl" name="fileUrl" placeholder="Nhập URL OneDrive mà bạn muốn tạo Direct Link tại đây"><br>
+<button type="button" onclick="generateDirectLink()">Tạo Direct Link</button>
+</form>
+
+<div id="directLinkResult" style="display: none;">
+<label for="directLink">Direct Link:</label><br>
+<input type="text" id="directLink" name="directLink"><br><br>
+<button type="button" onclick="copyToClipboard()">Copy</button>
+</div>
+
+<audio id="successSound" src="audio/success.mp3"></audio>
+<audio id="copySuccessSound" src="audio/copy.mp3"></audio>
+
+</body>
+</html>

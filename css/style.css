@@ -1,0 +1,65 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+color: #333;
+}
+
+form {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+color: #555;
+}
+
+input[type="text"] {
+width: 300px;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+padding: 10px 20px;
+background-color: #007bff;
+border: none;
+color: #fff;
+cursor: pointer;
+border-radius: 4px;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+#directLinkResult {
+margin-top: 20px;
+}
+
+input[type="text"],
+#directLinkResult input[type="text"] {
+width: 300px;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+#directLinkResult button {
+padding: 10px 20px;
+background-color: #28a745;
+border: none;
+color: #fff;
+cursor: pointer;
+border-radius: 4px;
+}
+
+#directLinkResult button:hover {
+background-color: #1b5e23;
+}
